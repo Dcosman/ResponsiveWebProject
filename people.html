@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>People - It's More Fun in the Philippines</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link href="styles.css" rel="stylesheet" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container-fluid" id="content">
+      <!--------------------Mobile Navbar-------------------->
+      <div class="row d-md-none">
+        <nav class="navbar bg-dark fixed-top">
+          <a class="navbar-brand" href="index.html"
+            ><img class="img-fluid ms-4" src="Web Images/Logo.png"
+          /></a>
+          <button
+            class="navbar-toggler navbar-dark me-4"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-dark"
+            tabindex="-1"
+            id="offcanvasNavbar"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title text-secondary"
+                id="offcanvasNavbarLabel"
+              >
+                MENU
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body border-top border-secondary">
+              <ul
+                class="navbar-nav justify-content-end flex-grow-1 pe-3"
+                id="sm-nav"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="people.html">PEOPLE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="explore.html">EXPLORE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="history.html">HISTORY</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--------------------Mobile Navbar-------------------->
+
+      <!--------------------Tablet/Desktop Navbar-------------------->
+      <div class="row d-none d-md-block d-xl-none">
+        <nav class="navbar bg-dark justify-content-center">
+          <a class="navbar-brand"><img src="Web Images/Logo.png" /></a>
+        </nav>
+      </div>
+
+      <div class="row d-none d-md-block sticky-top">
+        <ul class="nav navbar-expand-xl nav-fill bg-dark" id="med-nav">
+          <li class="navbar-text d-none d-xl-block">
+            <img src="Web Images/Logo.png" class="img-fluid" />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="people.html">PEOPLE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="explore.html">EXPLORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">HISTORY</a>
+          </li>
+        </ul>
+      </div>
+      <!--------------------Tablet/Desktop Navbar-------------------->
+
+      <!--------------------People Banner-------------------->
+      <div class="row">
+        <div id="banner-carousel" class="carousel">
+          <div class="carousel-inner" id="banner-img">
+            <div class="carousel-item active">
+              <img
+                src="Web Images/Banners/OtherPages/PEOPLEmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="Banner for mobile view"
+              />
+              <img
+                src="Web Images/Banners/OtherPages/PEOPLE.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------People Banner-------------------->
+
+      <!--------------------Presidents Carousel-------------------->
+      <div class="col-10 text-center h1 fw-bolder mx-auto mt-5">
+        <h1>PRESIDENTS OF THE PHILIPPINES</h1>
+      </div>
+
+      <div class="row mb-5 mt-3 justify-content-center">
+        <div id="president-carousel" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="0"
+              class="active bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="1"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="2"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="3"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="4"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="5"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="6"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="7"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="8"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="9"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="10"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="11"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="12"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="13"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="14"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#president-carousel"
+              data-bs-slide-to="15"
+              class="bg-secondary"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Emilio_Aguinaldo.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="image of Emilio Aguinaldo"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Emilio_Aguinaldo_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="image for Emilio Aguinaldo"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Emilio Aguinaldo</h5>
+                    <p class="card-text mb-5">
+                      Emilio Aguinaldo y Famy March 22, 1869 - February 6, 1964)
+                      was a Filipino revolutionary, statesman, and military
+                      leader who is the youngest president of the Philippines
+                      (1899-1901) and is recognized as the first president of
+                      the Philippines and of an Asian constitutional republic.
+                      He led Philippine forces first against Spain in the
+                      Philippine Revolution (1896-1898), then in the
+                      Spanish-American War (1898), and finally against the
+                      United States during the Philippine-American War
+                      (1899-1901).
+                    </p>
+                    <p class="card-text mb-5">
+                      Aguinaldo remains a controversial figure in Filipino
+                      history. Though he has been recommended as a national hero
+                      of the Philippines, many have criticized him for the
+                      deaths of the revolutionary leader Andrés Bonifacio and
+                      general Antonio Luna, as well as his collaboration with
+                      the Japanese Empire during their occupation of the
+                      Philippines in World War II.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/ML_Quezon.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="image for ML Quezon"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/ML_Quezon_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="image for Quezon"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Manuel L. Quezon</h5>
+                    <p class="card-text mb-5">
+                      Manuel Luis Quezon y Molina 19 August 1878 - 1 August
+                      1944), also known by his initials MLQ, was a Filipino
+                      lawyer, statesman, soldier and politician who served as
+                      president of the Commonwealth of the Philippines from 1935
+                      until his death in 1944. He was the first Filipino to head
+                      a government of the entire Philippines (as opposed to the
+                      government of previous Philippine states), and is
+                      considered to have been the second president of the
+                      Philippines, after Emilio Aguinaldo (1899-1901), whom
+                      Quezon defeated in the 1935 presidential election.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Jose_P_Laurel.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt=".image for Jose_P_Laurel"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Jose_P_Laurel_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="image for Jose_P_Laure"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Jose P. Laurel</h5>
+                    <p class="card-text mb-5">
+                      José Paciano Laurel y García March 9, 1891 - November 6,
+                      1959) was a Filipino politician, lawyer, and judge, who
+                      served as the president of the Japanese-occupied Second
+                      Philippine Republic, a puppet state during World War II,
+                      from 1943 to 1945. Since the administration of President
+                      Diosdado Macapagal (1961-1965), Laurel has been officially
+                      recognized by later administrations as a former president
+                      of the Philippines.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Sergio_Osmena.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="image for Sergio_Osmena"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Sergio_Osmena_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="image for Sergio_Osmena"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Sergio Osmeña</h5>
+                    <p class="card-text mb-5">
+                      Sergio Osmeña Sr. 9 September 1878 - 19 October 1961) was
+                      a Filipino lawyer and politician who served as the fourth
+                      president of the Philippines from 1944 to 1946. He was
+                      vice president under Manuel L. Quezon. Upon Quezon's
+                      sudden death in 1944, Osmeña succeeded him at age 65,
+                      becoming the oldest person to assume the Philippine
+                      presidency until Rodrigo Duterte took office in 2016 at
+                      age 71. A founder of the Nacionalista Party, Osmeña was
+                      also the first Visayan to become president.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Manuel_Roxas.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Manuel Roxas"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Manuel_Roxas_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Manuel_Roxas"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Manuel Roxas</h5>
+                    <p class="card-text mb-5">
+                      Manuel Acuña Roxas January 1, 1892 - April 15, 1948 was a
+                      Filipino lawyer and politician who served as the fifth
+                      president of the Philippines, who served from 1946 until
+                      his death due to heart attacks in 1948. He served briefly
+                      as the third and last president of the Commonwealth of the
+                      Philippines from May 28, 1946, to July 4, 1946, and became
+                      the first president of the independent Third Philippine
+                      Republic after the United States ceded its sovereignty
+                      over the Philippines.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Elpidio_R_Quirino.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Elpidio_R_Quirino "
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Elpidio_R_Quirino_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Elpidio_R_Quirino "
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Elpidio Quirino</h5>
+                    <p class="card-text mb-5">
+                      Elpidio Rivera Quirino November 16, 1890 - February 29,
+                      1956 was a Filipino lawyer and politician who served as
+                      the sixth president of the Philippines from 1948 to 1953.
+                    </p>
+                    <p class="card-text mb-5">
+                      A lawyer by profession, Quirino entered politics when he
+                      became a representative of Ilocos Sur from 1919 to 1925.
+                      He was then elected as a senator from 1925 to 1935. In
+                      1934, he became a member of the Philippine Independence
+                      Commission that was sent to Washington, D.C., which
+                      secured the passage of Tydings-McDuffie Act to the United
+                      States Congress. In 1935, he was also elected to the 1935
+                      Constitutional Convention that drafted the 1935 Philippine
+                      Constitution for the newly established Philippine
+                      Commonwealth. In the new government, he served as
+                      secretary of the interior and finance under the cabinet of
+                      President Manuel L. Quezon.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Ramon_Magsaysay.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Ramon_Magsaysay"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Ramon_Magsaysay_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Ramon_Magsaysay"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Ramon Magsaysay</h5>
+                    <p class="card-text mb-5">
+                      Ramon del Fierro Magsaysay Sr. August 31, 1907 - March 17,
+                      1957 was a Filipino statesman who served as the seventh
+                      president of the Philippines, from December 30, 1953,
+                      until his death in an aircraft disaster on March 17, 1957.
+                      An automobile mechanic by profession, Magsaysay was
+                      appointed military governor of Zambales after his
+                      outstanding service as a guerrilla leader during the
+                      Pacific War. He then served two terms as Liberal Party
+                      congressman for Zambales's at-large district before being
+                      appointed Secretary of National Defense by President
+                      Elpidio Quirino. He was elected president under the banner
+                      of the Nacionalista Party. He was the first Philippine
+                      president born in the 20th century and the first to be
+                      born after the Spanish colonial era.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Carlos_P_Garcia.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Carlos_P_Garcia"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Carlos_P_Garcia_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Carlos_P_Garcia"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Carlos P. Garcia</h5>
+                    <p class="card-text mb-5">
+                      Carlos Polestico Garcia November 4, 1896 - June 14, 1971
+                      was a Filipino teacher, poet, orator, lawyer, public
+                      official, political economist, guerrilla and Commonwealth
+                      military leader who was the eighth president of the
+                      Philippines. A lawyer by profession, Garcia entered
+                      politics when he became representative of Bohol's 3rd
+                      district in the House of Representatives. He then served
+                      as a senator from 1945 to 1953. In 1953 he was the running
+                      mate of Ramon Magsaysay in the 1953 presidential election.
+                      He then served as vice president from 1953 to 1957. After
+                      the death of Magsaysay in March 1957, he succeeded to the
+                      presidency. He won a full term in the 1957 presidential
+                      election. He ran for a second full term as president in
+                      the 1961 presidential election and was defeated by Vice
+                      President Diosdado Macapagal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Diosdado_Macapagal.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Diosdado_Macapagal"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Diosdado_Macapagal_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Diosdado_Macapagal"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">
+                      Diosdado Macapagal
+                    </h5>
+                    <p class="card-text mb-5">
+                      Diosdado Pangan Macapagal September 28, 1910 - April 21,
+                      1997 was a Filipino lawyer, poet and politician who served
+                      as the ninth president of the Philippines, serving from
+                      1961 to 1965, and the sixth vice president, serving from
+                      1957 to 1961. He also served as a member of the House of
+                      Representatives, and headed the Constitutional Convention
+                      of 1970. He was the father of Gloria Macapagal Arroyo, who
+                      followed his path as president of the Philippines from
+                      2001 to 2010.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Ferdinand_E_Marcos.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Ferdinand_E_Marcos"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Ferdinand_E_Marcos_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Ferdinand_E_Marcos"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Ferdinand Marcos</h5>
+                    <p class="card-text mb-5">
+                      Ferdinand Emmanuel Edralin Marcos Sr. September 11, 1917 -
+                      September 28, 1989 was a Filipino politician, lawyer,
+                      dictator, and kleptocrat who was the 10th president of the
+                      Philippines from 1965 to 1986. He ruled under martial law
+                      from 1972 until 1981 and kept most of his martial law
+                      powers until he was deposed in 1986, branding his rule as
+                      "constitutional authoritarianism" under his Kilusang
+                      Bagong Lipunan (New Society Movement). One of the most
+                      controversial leaders of the 20th century, Marcos's rule
+                      was infamous for its corruption, extravagance, and
+                      brutality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Corazon_Aquino.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Corazon_Aquino"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Corazon_Aquino_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Corazon_Aquino"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Corazon Aquino</h5>
+                    <p class="card-text mb-5">
+                      Maria Corazon "Cory" Sumulong Cojuangco-Aquino January 25,
+                      1933 - August 1, 2009 was a Filipina politician who served
+                      as the 11th president of the Philippines from 1986 to
+                      1992. She was the most prominent figure of the 1986 People
+                      Power Revolution, which ended the two-decade rule of
+                      President Ferdinand Marcos and led to the establishment of
+                      the current democratic Fifth Philippine Republic.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Ramos_Pentagon.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Ramos_Pentagon"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Ramos_Pentagon_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Ramos_Pentagon"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Fidel V. Ramos</h5>
+                    <p class="card-text mb-5">
+                      Fidel Valdez Ramos March 18, 1928 - July 31, 2022
+                      popularly known as FVR and Eddie Ramos, was a Filipino
+                      general and politician who served as the 12th president of
+                      the Philippines from 1992 to 1998. He was the only career
+                      military officer who reached the rank of five-star
+                      general/admiral de jure. Rising from second lieutenant to
+                      commander-in-chief of the armed forces, Ramos was widely
+                      credited and admired by many for revitalizing and renewing
+                      international confidence in the Philippine economy during
+                      his six years in office. He is the third oldest to assume
+                      the presidency, together with the current 17th president,
+                      Bongbong Marcos, next to Sergio Osmeña and Rodrigo
+                      Duterte.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Joseph_Estrada.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Joseph_Estrada"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Joseph_Estrada_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Joseph_Estrada"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Joseph Estrada</h5>
+                    <p class="card-text mb-5">
+                      Joseph Ejercito Estrada also known by the nickname Erap,
+                      is a Filipino politician and former actor. He served as
+                      the 13th president of the Philippines from 1998 to 2001,
+                      the 9th vice president of the Philippines from 1992 to
+                      1998, and the 21st mayor of the City of Manila, the
+                      country's capital from 2013 to 2019. In 2001, he became
+                      the first chief executive in Asia to be formally impeached
+                      and resigned from power. At the age of 85, he is currently
+                      the oldest living former Philippine President.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Gloria_Macapagal_Arroyo.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Gloria_Macapagal_Arroyo"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Gloria_Macapagal_Arroyo_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Gloria_Macapagal_Arroyo"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">
+                      Gloria Macapagal Arroyo
+                    </h5>
+                    <p class="card-text mb-5">
+                      Maria Gloria Macaraeg Macapagal Arroyo born April 5, 1947,
+                      often referred to by her initials GMA, is a Filipino
+                      academic and politician serving as one of the House Deputy
+                      Speakers since 2022, and previously from 2016 to 2017. She
+                      previously served as the 14th president of the Philippines
+                      from 2001 until 2010. She is the longest serving president
+                      of the Philippines since Ferdinand Marcos. Before her
+                      accession to the presidency, she served as the 10th vice
+                      president of the Philippines from 1998 to 2001 under
+                      President Joseph Estrada, making her the country's first
+                      female vice president, despite having run on an opposing
+                      ticket. She was also a senator from 1992 to 1998. After
+                      her presidency, she was elected as the representative of
+                      Pampanga's 2nd district in 2010 and later became the
+                      speaker of the House of Representatives from 2018 until
+                      her retirement in 2019. She later came out of retirement
+                      to be elected as representative of the same district in
+                      2022. She is one of the only 2 Filipinos to hold at least
+                      three of the four highest offices in the country: vice
+                      president, president, and house speaker, alongside former
+                      President Sergio Osmeña.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Benigno_Aquino_III.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt=".Image for Benigno_Aquino_III"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Benigno_Aquino_III_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Benigno_Aquino_III"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">
+                      Benigno Aquino III
+                    </h5>
+                    <p class="card-text mb-5">
+                      Benigno Simeon Cojuangco Aquino III February 8, 1960
+                      nav-prev June 24, 2021 also known as Noynoy Aquino and
+                      colloquially as PNoy, was a Filipino politician who served
+                      as the 15th president of the Philippines from 2010 to
+                      2016. The son of assassinated politician Benigno Aquino
+                      Jr. and 11th president Corazon Aquino, he was a
+                      fourth-generation politician as part of the Aquino family
+                      of Tarlac.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Presidents/Rodrigo_Duterte.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Rodrigo_Duterte"
+                  />
+                  <img
+                    src="Web Images/People/Presidents/Rodrigo_Duterte_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Rodrigo_Duterte"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Rodrigo Duterte</h5>
+                    <p class="card-text mb-5">
+                      Rodrigo Roa Duterte KGCR born March 28, 1945, also known
+                      as Digong, Rody, and by the initials DU30 and PRRD, is a
+                      Filipino lawyer and politician who served as the 16th
+                      president of the Philippines from 2016 to 2022. He is the
+                      chairperson of PDP-Laban, the ruling political party in
+                      the Philippines during his presidency. Duterte is the
+                      first president of the Philippines to be from Mindanao,
+                      and is the oldest person to assume office, beginning his
+                      term at age 71.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------Presidents Carousel-------------------->
+
+      <!--------------------Jose Rizal-------------------->
+      <div
+        class="row border-dark border-top pt-3 border-bottom my-5 border-opacity-25"
+        id="rizal-row"
+      >
+        <div class="col-12 col-md-6 col-xl-7 order-md-last" id="people">
+          <img
+            src="Web Images/People/Jose_Rizal.png"
+            alt="Image for Jose_Rizal"
+            class="w-100 d-md-none d-xl-block h-100"
+            id="jose-rizal"
+          />
+          <img
+            src="Web Images/People/Jose_Rizal_cropped.png"
+            alt="Image for Jose_Rizal"
+            class="w-100 d-none d-md-block d-xl-none h-100"
+            id="jose-rizal"
+          />
+        </div>
+        <div class="col-9 mx-auto mt-5 col-md-6 col-xl-4">
+          <div class="col-8 col-md-7 col-xl-11 mx-auto ms-xl-5">
+            <img
+              src="Web Images/People/jose-rizal-signature.png"
+              alt="Image for jose-rizal-signature"
+              class="w-100"
+              data-toggle="tooltip"
+              title="Jose Rizal Signature"
+            />
+          </div>
+          <div class="col mx-md-3 mt-xl-5 ms-xl-5 ms-md-5">
+            <h1 class="col-12 text-center text-md-start mt-4">JOSE RIZAL</h1>
+            <h5
+              class="col-12 text-center text-md-start mb-4 text-uppercase small fst-italic"
+            >
+              José Protacio Rizal Mercado y Alonso Realonda
+            </h5>
+            <p
+              class="col-12 text-center text-md-start text-xl-start mx-auto mx-xl-0"
+            >
+              He was a Filipino polymath, nationalist and the most prominent
+              advocate for reforms in the Philippines during the Spanish
+              colonial era. He is considered the Philippines' national hero and
+              the anniversary of Rizal's death is commemorated as a Philippine
+              holiday called Rizal Day. Rizal's 1896 military trial and
+              execution made him a martyr of the Philippine Revolution.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--------------------Jose Rizal-------------------->
+
+      <!--------------------Celebrities Carousel-------------------->
+      <div class="row justify-content-center mb-5">
+        <h1 class="col-12 text-center my-4">FAMOUS CELEBRITIES</h1>
+        <div id="celebrity-carousel" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="0"
+              class="active bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="1"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="2"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="3"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="4"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="5"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="6"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="7"
+              class="bg-secondary"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#celebrity-carousel"
+              data-bs-slide-to="8"
+              class="bg-secondary"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Bretman Rock.jpg"
+                    class="col-md-6 mb-md-5"
+                    alt="Image for Bretman Rock"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Bretman Rock</h5>
+                    <p class="card-text mb-5">
+                      Bretman Rock is a Filipino-American social media
+                      personality and beauty influencer. An internet sensation,
+                      Rock posted a contouring video in 2016, which took several
+                      social media platforms by storm. An openly gay influencer,
+                      Bretman Rock graced Gay Times' Pride Month.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Catriona gray.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Catriona gray"
+                  />
+                  <img
+                    src="Web Images/People/Celebrities/Catriona gray_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Catriona gray"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Catriona Gray</h5>
+                    <p class="card-text mb-5">
+                      Catriona Elisa Magnayon Gray is a Filipino-Australian
+                      model, singer, beauty queen, television personality, youth
+                      advocate and arts ambassador best known for having been
+                      crowned Miss Universe 2018. She is the fourth Filipina to
+                      win the Miss Universe competition.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Pia Wurtzbach.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Pia Wurtzbach"
+                  />
+                  <img
+                    src="Web Images/People/Celebrities/Pia Wurtzbach_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Pia Wurtzbach"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Pia Wurtzbach</h5>
+                    <p class="card-text mb-5">
+                      Pia Alonzo Wurtzbach, formerly known professionally as Pia
+                      Romero, is a Filipino model, actress and beauty queen who
+                      is known for being crowned Miss Universe 2015. She joined
+                      Binibining Pilipinas pageant three times, and won in 2015
+                      in her third attempt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Manny Pacquiao.jpg"
+                    class="col-md-6 mb-md-5"
+                    alt="Image for Manny Pacquiao"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Manny Pacquiao</h5>
+                    <p class="card-text mb-5">
+                      Emmanuel Dapidran Pacquiao Sr. CLH is a Filipino
+                      politician and former professional boxer. Nicknamed
+                      "PacMan", he is regarded as one of the greatest
+                      professional boxers of all time. He previously served as a
+                      Senator of the Philippines from 2016 to 2022.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Nadine Lustre.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Nadine Lustre"
+                  />
+                  <img
+                    src="Web Images/People/Celebrities/Nadine Lustre_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Nadine Lustre"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Nadine Lustre</h5>
+                    <p class="card-text mb-5">
+                      Nadine Alexis Paguia Lustre is a Filipino actress and
+                      singer. She rose to fame after playing the lead role of
+                      Eya Rodriguez in the film Diary ng Panget. Lustre has
+                      since starred in the television series On the Wings of
+                      Love and the films Never Not Love You, Ulan, and Indak.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Heart Evangelista.jpg"
+                    class="col-md-6 mb-md-5 d-xl-none"
+                    alt="Image for Heart Evangelista"
+                  />
+                  <img
+                    src="Web Images/People/Celebrities/Heart Evangelista_cropped.jpg"
+                    class="col-md-6 mb-md-5 d-none d-xl-block"
+                    alt="Image for Heart Evangelista"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Heart Evangelista</h5>
+                    <p class="card-text mb-5">
+                      Actress, singer, television host and socialite Heart
+                      Evangelista is a multitalented diva. She initially was
+                      modelling and later entered an acting career just in her
+                      teens. Her striking facial features, perfect sharp looks
+                      and confidence made her stand apart from others.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Bella Poarch.png"
+                    class="col-md-6 mb-md-5"
+                    alt="Image for Bella Poarch"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Bella Poarch</h5>
+                    <p class="card-text mb-5">
+                      Bella Poarch is a Filipino-American singer and social
+                      media influencer. She is best known for posting videos on
+                      TikTok. She came into prominence in 2021, when one of her
+                      TikTok videos hit 49 million likes, making it the most
+                      liked video on the platform. The same year, Bella Poarch
+                      released her debut single titled Build a Bitch.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Vice Ganda.jpeg"
+                    class="col-md-6 mb-md-5"
+                    alt=".Image for Vice Ganda"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Vice Ganda</h5>
+                    <p class="card-text mb-5">
+                      Filipino comedian, talk show host, actor, and TV presenter
+                      Vice Ganda has appeared in some of the highest-grossing
+                      movies in Philippine cinema. As a comedian, he uses
+                      observational comedy, situational irony, and sarcasm in
+                      his routines. Also active on TV, he regularly hosts the
+                      noontime variety show It's Showtime.  He is openly gay and
+                      is considered an LGBTQAI+ icon.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card col-10 mx-auto">
+                <div class="row">
+                  <img
+                    src="Web Images/People/Celebrities/Ivana Alawi.jpg"
+                    class="col-md-6 mb-md-5"
+                    alt="Image for Ivana Alawi"
+                  />
+                  <div class="card-body col-md-6 mt-3">
+                    <h5 class="card-title text-uppercase">Ivana Alawi</h5>
+                    <p class="card-text mb-5">
+                      Mariam Sayed Sameer Marbella Al-Alawi, better known by her
+                      screen name Ivana Alawi, is a Filipina-Moroccan actress,
+                      model, and YouTuber. She is also the CEO of her own
+                      skincare brand called Ivana Skin.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------Celebrities Carousel-------------------->
+
+      <!--------------------Footer-------------------->
+      <div class="row">
+        <footer class="text-center text-white bg-dark" id="footer">
+          <div class="container">
+            <div class="col flex-row float-md-start">
+              <img
+                src="Web Images/Logo.png"
+                width="100"
+                class="mt-5 mb-3"
+                alt="Logo for footer"
+              />
+            </div>
+
+            <div class="row justify-content-center">
+              <div
+                class="row text-center d-flex justify-content-center pt-5 pb-3"
+              >
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="index.html" class="text-white">HOME</a>
+                  </h6>
+                </div>
+
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="about.html" class="text-white">ABOUT</a>
+                  </h6>
+                </div>
+
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="history.html" class="text-white">HISTORY</a>
+                  </h6>
+                </div>
+
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="explore.html" class="text-white">EXPLORE</a>
+                  </h6>
+                </div>
+
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="people.html" class="text-white">PEOPLE</a>
+                  </h6>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center pt-sm-3">
+                <div class="col">
+                  <p>
+                    Travelling in the Philippines is much more fun. Visit
+                    <span>
+                      <a href="https://philippines.travel/"
+                        >Philippines' official tourism website</a
+                      ></span
+                    >
+                    for more info.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

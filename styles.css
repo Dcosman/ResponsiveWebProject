@@ -1,0 +1,452 @@
+/*-------------------------page styling---------------------------*/
+@font-face {
+    font-family: "Barabara";
+    src: url(BARABARA-final.otf);
+}
+
+body {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #292929;
+    overflow-x: hidden;
+}
+
+#content {
+    padding: 0;
+}
+
+h5 {
+    font-family: "Barabara";
+    font-size: 2rem;
+}
+h1,
+h6 a {
+    font-family: "Barabara" !important;
+}
+/*-------------------------page styling---------------------------*/
+
+/*-------------------------navigation styling---------------------------*/
+#sm-nav,
+#med-nav {
+    font-family: "Barabara";
+}
+
+#med-nav li:not(:first-child) a {
+    color: white;
+    padding: 20px 0;
+}
+
+#med-nav li:hover:not(:first-child) a {
+    color: rgb(25, 25, 25);
+    padding: 20px 0;
+}
+
+#med-nav li:hover:not(:first-child) {
+    background-color: yellow;
+}
+
+#med-nav li:first-child {
+    padding: 15px 40px;
+}
+/*-------------------------navigation styling---------------------------*/
+
+/*-------------------------banner styling---------------------------*/
+#banner-img .carousel-item img {
+    width: 100%;
+    object-fit: cover !important;
+}
+
+#travel-img .carousel-item img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover !important;
+}
+/*-------------------------banner styling---------------------------*/
+
+/*-------------------------carousel styling---------------------------*/
+.carousel-item {
+    justify-content: center;
+}
+
+.carousel-item:hover {
+    border: 20px yellow;
+}
+
+#nav-carousel {
+    background-color: rgb(229, 229, 229);
+    padding: 3rem 0;
+}
+
+#nav-carousel a:hover {
+    transform: scale(1.06);
+    transition: 0.3s;
+    box-shadow: 0px 0px 0px 8px yellow;
+    border: 20px yellow;
+}
+
+#nav-carousel a {
+    transition: 0.3s;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+#nav-prev,
+#nav-next {
+    width: 95px;
+}
+
+#nav-prev:hover,
+#nav-next:hover {
+    background-color: grey;
+    opacity: 0.3;
+}
+
+/*-------------------------carousel styling---------------------------*/
+
+/*-------------------------photo gallery styling---------------------------*/
+#photo-gallery img {
+    object-fit: cover !important;
+    min-height: 350px;
+}
+
+#photo-gallery > div {
+    max-width: 1000px;
+}
+
+#photo-gallery {
+    margin: 0 0 4rem 0;
+}
+
+#photo-gallery > h1 {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+/*-------------------------photo gallery styling---------------------------*/
+
+/*-------------------------about page styling---------------------------*/
+#change-button:hover {
+    background-color: yellow;
+    transition: 0.3s;
+    color: black;
+}
+
+.map-container-2 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.map-container-2 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/*-------------------------about page styling---------------------------*/
+
+/*-------------------------explore styling---------------------------*/
+#toggle-buttons li:hover {
+    background-color: yellow;
+    color: black;
+}
+#toggle-buttons li {
+    background-color: #212529;
+}
+#toggle-buttons li:hover a {
+    color: black;
+}
+#toggle-buttons a {
+    color: white;
+}
+/*-------------------------explore styling---------------------------*/
+
+/*-------------------------video styling---------------------------*/
+.explore-video {
+    min-height: 400px;
+}
+
+.explore-video iframe {
+    height: 100%;
+}
+/*-------------------------video styling---------------------------*/
+
+/*-------------------------Map styling---------------------------*/
+#location-map {
+    text-align: center;
+}
+/*-------------------------Map styling---------------------------*/
+
+/*********************-------------------------Mobile View---------------------------*************************/
+@media screen and (max-width: 767px) {
+    button .navbar-toggler {
+        color: white;
+    }
+
+    /*-------------------------footer---------------------------*/
+    #footer img {
+        width: 20rem;
+    }
+    /*-------------------------footer---------------------------*/
+
+    /*-------------------------navigation carousel styling---------------------------*/
+    .carousel-item a {
+        width: 45%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #nav-carousel .carousel-item img {
+        width: 100%;
+        object-fit: cover !important;
+    }
+    /*-------------------------navigation carousel styling---------------------------*/
+
+    /*-------------------------navbar logo---------------------------*/
+    .navbar-brand img {
+        width: 8rem;
+    }
+    /*-------------------------navbar logo---------------------------*/
+
+    /*-------------------------explore---------------------------*/
+    .accordion-body img {
+        max-height: 400px;
+        object-fit: cover !important;
+    }
+    /*-------------------------explore---------------------------*/
+
+    /*-------------------------Map styling---------------------------*/
+    #location-map iframe {
+        height: 400px;
+    }
+    /*-------------------------Map styling---------------------------*/
+}
+/*********************-------------------------Mobile View---------------------------*************************/
+
+/*********************-------------------------Tablet View---------------------------*************************/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    /*-------------------------navbar logo---------------------------*/
+    .navbar-brand img {
+        width: 10rem;
+    }
+    /*-------------------------navbar logo---------------------------*/
+
+    /*-------------------------home banner---------------------------*/
+    #banner-img .carousel-item img {
+        height: 600px;
+        object-fit: cover !important;
+    }
+
+    #banner-carousel {
+        margin: 0 !important;
+    }
+    /*-------------------------home banner---------------------------*/
+
+    /*-------------------------navigation carousel styling---------------------------*/
+    .carousel-item a {
+        width: 30%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #nav-carousel .carousel-item img {
+        width: 100%;
+    }
+    /*-------------------------navigation carousel styling---------------------------*/
+
+    /*-------------------------footer---------------------------*/
+    #footer img {
+        margin-right: 40px;
+        width: 10rem;
+    }
+    /*-------------------------footer---------------------------*/
+
+    /*-------------------------orient seas home image---------------------------*/
+    .pearl-sea-img-lg {
+        object-fit: cover !important;
+        max-height: 650px;
+    }
+    /*-------------------------orient seas home image---------------------------*/
+
+    /*-------------------------explore---------------------------*/
+    #explore-tabs img {
+        min-height: 472px;
+        object-fit: cover !important;
+    }
+
+    .accordion-body img {
+        min-height: 450px;
+        object-fit: cover !important;
+    }
+    /*-------------------------explore---------------------------*/
+
+    /*-------------------------presidents---------------------------*/
+    #president-carousel img {
+        min-height: 472px;
+        object-fit: cover !important;
+    }
+    /*-------------------------presidents---------------------------*/
+
+    /*-------------------------celebrities---------------------------*/
+    #celebrity-carousel img {
+        min-height: 472px;
+        object-fit: cover !important;
+    }
+
+    #jose-rizal {
+        object-fit: cover !important;
+    }
+    /*-------------------------celebrities---------------------------*/
+
+    /*-------------------------video styling---------------------------*/
+    .explore-video iframe {
+        height: 100%;
+    }
+    .explore-video {
+        margin-left: auto;
+        margin-right: auto;
+        width: 768px;
+    }
+    /*-------------------------video styling---------------------------*/
+
+    /*-------------------------Map styling---------------------------*/
+    #location-map iframe {
+        height: 550px;
+    }
+    /*-------------------------Map styling---------------------------*/
+}
+/*********************-------------------------Tablet View---------------------------*************************/
+
+/*********************-------------------------Desktop View---------------------------*************************/
+@media screen and (min-width: 1200px) {
+    /*-------------------------navbar logo---------------------------*/
+    .navbar-text img {
+        width: 12rem;
+        height: 2.8rem;
+        object-fit: cover;
+    }
+    /*-------------------------navbar logo---------------------------*/
+
+    /*-------------------------home banner---------------------------*/
+    #banner-img .carousel-item img {
+        height: 700px;
+    }
+    /*-------------------------home banner---------------------------*/
+
+    /*-------------------------navigation carousel styling---------------------------*/
+    .carousel-item a {
+        width: 20%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #nav-carousel .carousel-item img {
+        width: 100%;
+    }
+
+    #med-nav li:not(:first-child) {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    /*-------------------------navigation carousel styling---------------------------*/
+
+    /*-------------------------footer---------------------------*/
+    #footer p {
+        width: 75%;
+        margin: auto;
+    }
+    /*-------------------------footer---------------------------*/
+
+    /*-------------------------orient seas home image---------------------------*/
+    .pearl-sea-img {
+        width: 75%;
+        min-height: 600px;
+        object-fit: cover !important;
+    }
+    /*-------------------------orient seas home image---------------------------*/
+
+    /*-------------------------national symbols---------------------------*/
+    .oyster-img {
+        max-height: 700px;
+        object-fit: cover !important;
+    }
+    /*-------------------------national symbols---------------------------*/
+
+    /*-------------------------explore---------------------------*/
+    #explore-tabs img {
+        min-height: 472px;
+        object-fit: cover !important;
+    }
+
+    .accordion-body img {
+        min-height: 510px;
+        object-fit: cover !important;
+    }
+    /*-------------------------explore---------------------------*/
+
+    /*-------------------------presidents---------------------------*/
+    #president-carousel img {
+        min-height: 472px;
+        object-fit: cover !important;
+    }
+    /*-------------------------presidents---------------------------*/
+
+    /*-------------------------celebrities---------------------------*/
+    #celebrity-carousel img {
+        min-height: 472px;
+        object-fit: cover !important;
+    }
+
+    #jose-rizal {
+        object-fit: cover !important;
+    }
+
+    #rizal-row {
+        object-fit: cover !important;
+    }
+    /*-------------------------celebrities---------------------------*/
+
+    /*-------------------------video styling---------------------------*/
+    .explore-video {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 600px;
+    }
+    /*-------------------------video styling---------------------------*/
+
+    /*-------------------------Map styling---------------------------*/
+    #location-map iframe {
+        height: 100%;
+    }
+    /*-------------------------Map styling---------------------------*/
+}
+/*********************-------------------------Desktop View---------------------------*************************/
+
+/*-------------------------Footer Styling---------------------------*/
+#footer img {
+    width: 15rem;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+#footer a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+/*-------------------------Footer Styling---------------------------*/
+
+/*-------------------------History flag background---------------------------*/
+.History-bg {
+    background-color: lightgray;
+}
+/*-------------------------History flag background---------------------------*/

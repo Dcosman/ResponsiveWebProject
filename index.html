@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home - It's More Fun in the Philippines</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link href="styles.css" rel="stylesheet" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--------------------Page Container-------------------->
+    <div class="container-fluid" id="content">
+      <!--------------------Mobile Navbar-------------------->
+      <div class="row d-md-none">
+        <nav class="navbar bg-dark fixed-top">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              class="img-fluid ms-4"
+              src="Web Images/Logo.png"
+              alt="page logo"
+          /></a>
+          <button
+            class="navbar-toggler navbar-dark me-4"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-dark"
+            tabindex="-1"
+            id="offcanvasNavbar"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title text-secondary"
+                id="offcanvasNavbarLabel"
+              >
+                MENU
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body border-top border-secondary">
+              <ul
+                class="navbar-nav justify-content-end flex-grow-1 pe-3"
+                id="sm-nav"
+              >
+                <li class="nav-item">
+                  <a class="nav-link active text-white" href="index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="people.html">PEOPLE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="explore.html">EXPLORE</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="history.html">HISTORY</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--------------------Mobile Navbar-------------------->
+
+      <!--------------------Tablet/Desktop Navbar-------------------->
+      <div class="row d-none d-md-block d-xl-none">
+        <nav class="navbar bg-dark justify-content-center">
+          <a class="navbar-brand"
+            ><img src="Web Images/Logo.png" alt="Image for logo"
+          /></a>
+        </nav>
+      </div>
+
+      <div class="row d-none d-md-block sticky-top">
+        <ul class="nav navbar-expand-xl nav-fill bg-dark" id="med-nav">
+          <li class="navbar-text d-none d-xl-block">
+            <img src="Web Images/Logo.png" class="img-fluid" alt="page logo" />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="people.html">PEOPLE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="explore.html">EXPLORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">HISTORY</a>
+          </li>
+        </ul>
+      </div>
+      <!--------------------Tablet/Desktop Navbar-------------------->
+
+      <!--------------------Banner Carousel-------------------->
+      <div class="row">
+        <div
+          id="banner-carousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#banner-carousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner-carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner-carousel"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner-carousel"
+              data-bs-slide-to="3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner-carousel"
+              data-bs-slide-to="4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner-carousel"
+              data-bs-slide-to="5"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner-carousel"
+              data-bs-slide-to="6"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#banner-carousel"
+              data-bs-slide-to="7"
+            ></button>
+          </div>
+
+          <div class="carousel-inner" id="banner-img">
+            <div class="carousel-item active">
+              <img
+                src="Web Images/Banners/MAINmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="home banner"
+              />
+              <img
+                src="Web Images/Banners/MAIN.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="home banner"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Banners/BANAUEmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="home banner mornings"
+              />
+              <img
+                src="Web Images/Banners/BANAUE.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="home banner mornings"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Banners/JEEPmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="home banner commute"
+              />
+              <img
+                src="Web Images/Banners/JEEP.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="home banner commute"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Banners/MAYONmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="home banner volcano"
+              />
+              <img
+                src="Web Images/Banners/MAYON.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="home banner volcano"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Banners/PALAWANmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="home banner vacation"
+              />
+              <img
+                src="Web Images/Banners/PALAWAN.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="home banner vacation"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Banners/SINULOGmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="home banner fiesta"
+              />
+              <img
+                src="Web Images/Banners/SINULOG.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="home banner fiesta"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Banners/TIMETRAVELmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="home banner time travel"
+              />
+              <img
+                src="Web Images/Banners/TIMETRAVEL.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="home banner time travel"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Banners/TURTLEmobile.jpg"
+                class="img-fluid d-lg-none"
+                alt="home banner turtle"
+              />
+              <img
+                src="Web Images/Banners/TURTLE.jpg"
+                class="img-fluid d-none d-lg-block"
+                alt="home banner turtle"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------Banner Carousel-------------------->
+
+      <!--------------------Brief Description/Image-------------------->
+      <div
+        class="row my-5 mx-xl-5 justify-content-center justify-content-xl-start"
+      >
+        <div class="col col-xl-6 mt-5">
+          <img
+            src="Web Images/Pearl_of_the_Orient_Seas_mobile.jpg"
+            class="pearl-sea-img w-100 d-md-none d-xl-block"
+            alt="pearl of the orient seas image"
+            data-toggle="tooltip"
+            title="Pearl of the Orient Seas"
+          />
+          <img
+            src="Web Images/Pearl_of_the_Orient_Seas.jpg"
+            class="pearl-sea-img-lg w-100 d-none d-md-block d-xl-none"
+            alt="pearl of the orient seas image"
+            data-toggle="tooltip"
+            title="Pearl of the Orient Seas"
+          />
+        </div>
+        <div
+          class="mx-5 mt-3 py-xl-5 col-11 text-md-center text-xl-start col-xl"
+        >
+          <h1 class="col-9 col-md-12 col-xl-9 my-2">
+            THE PEARL OF THE ORIENT SEAS
+          </h1>
+          <p class="mt-4">
+            Historically, the Philippines was first dubbed as “Perla del Mar de
+            Oriente” (Pearl of the Orient Seas) in 1751 by a Spanish Jesuit
+            missionary, Father Juan J. Delgado. In 1896, our national hero, Dr.
+            Jose P. Rizal, used the phrase referring to the Philippines in his
+            last poem, "Mi ultimo adios." Then, the moniker also included in the
+            revisions of the Philippine anthem in 1960.
+          </p>
+          <p class="col-12">
+            The country is known to have 7,107 islands, but recently the
+            National Mapping and Resource Information Authority (NAMRIA)
+            discovered 534 unknown new islands of the country located in
+            Mindanao according to CNN Philippines. Today, the total registered
+            and official count is 7,641 islands
+          </p>
+        </div>
+      </div>
+      <!--------------------Brief Description/Image-------------------->
+
+      <!--------------------Mobile Navigation "Cards"-------------------->
+      <div class="row mb-5">
+        <div class="carousel slide" id="mobile-carousel">
+          <button
+            id="nav-prev"
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#mobile-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            id="nav-next"
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#mobile-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+          <div class="carousel-inner d-md-none" id="nav-carousel">
+            <div class="carousel-item active">
+              <a href="explore.html#cities"
+                ><img
+                  src="Web Images/Cards/CITIES.jpg"
+                  class=""
+                  alt="cities card image"
+              /></a>
+              <a href="about.html#climate"
+                ><img
+                  src="Web Images/Cards/CLIMATE.jpg"
+                  class=""
+                  alt="climate card image"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="history.html#culture"
+                ><img
+                  src="Web Images/Cards/CULTURE.jpg"
+                  class=""
+                  alt="culture card image"
+              /></a>
+              <a href="about.html#economy"
+                ><img
+                  src="Web Images/Cards/ECONOMY.jpg"
+                  class=""
+                  alt="economy card image"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="history.html#history"
+                ><img
+                  src="Web Images/Cards/HISTORY.jpg"
+                  class=""
+                  alt="history card image"
+              /></a>
+              <a href="explore.html#Nature"
+                ><img
+                  src="Web Images/Cards/NATURE.jpg"
+                  class=""
+                  alt="nature card image"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="people.html#people"
+                ><img
+                  src="Web Images/Cards/PEOPLE.jpg"
+                  class=""
+                  alt="people card image"
+              /></a>
+              <a href="about.html#symbols"
+                ><img
+                  src="Web Images/Cards/SYMBOLS.jpg"
+                  class=""
+                  alt="symbols card image"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------Mobile Navigation "Cards"-------------------->
+
+      <!--------------------Tablet Navigation "Cards"-------------------->
+      <div class="row mb-5 d-none d-md-block d-xl-none">
+        <div class="carousel slide" id="tablet-carousel">
+          <button
+            id="nav-prev"
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#tablet-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            id="nav-next"
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#tablet-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+          <div class="carousel-inner" id="nav-carousel">
+            <div class="carousel-item active">
+              <a href="explore.html#cities"
+                ><img
+                  src="Web Images/Cards/CITIES.jpg"
+                  class=""
+                  alt="cities card image"
+              /></a>
+              <a href="about.html#climate"
+                ><img
+                  src="Web Images/Cards/CLIMATE.jpg"
+                  class=""
+                  alt="climate card image"
+              /></a>
+              <a href="history.html#culture"
+                ><img
+                  src="Web Images/Cards/CULTURE.jpg"
+                  class=""
+                  alt="culture card image"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="about.html#economy"
+                ><img
+                  src="Web Images/Cards/ECONOMY.jpg"
+                  class=""
+                  alt="economy card image"
+              /></a>
+              <a href="history.html#history"
+                ><img
+                  src="Web Images/Cards/HISTORY.jpg"
+                  class=""
+                  alt="history card image"
+              /></a>
+              <a href="explore.html#Nature"
+                ><img
+                  src="Web Images/Cards/NATURE.jpg"
+                  class=""
+                  alt="nature card image"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="people.html#people"
+                ><img
+                  src="Web Images/Cards/PEOPLE.jpg"
+                  class=""
+                  alt="people card image"
+              /></a>
+              <a href="about.html#symbols"
+                ><img
+                  src="Web Images/Cards/SYMBOLS.jpg"
+                  class=""
+                  alt="symbols card image"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------Tablet Navigation "Cards"-------------------->
+
+      <!--------------------Desktop Navigation "Cards"-------------------->
+      <div class="row mb-5 d-none d-xl-block">
+        <div class="carousel slide" id="desktop-carousel">
+          <button
+            id="nav-prev"
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#desktop-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            id="nav-next"
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#desktop-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+          <div class="carousel-inner d-none d-xl-block" id="nav-carousel">
+            <div class="carousel-item active">
+              <a href="explore.html#cities"
+                ><img
+                  src="Web Images/Cards/CITIES.jpg"
+                  class=""
+                  alt="cities card image"
+              /></a>
+              <a href="about.html#climate"
+                ><img
+                  src="Web Images/Cards/CLIMATE.jpg"
+                  class=""
+                  alt="climate card image"
+              /></a>
+              <a href="history.html#culture"
+                ><img
+                  src="Web Images/Cards/CULTURE.jpg"
+                  class=""
+                  alt="culture card image"
+              /></a>
+              <a href="about.html#economy"
+                ><img
+                  src="Web Images/Cards/ECONOMY.jpg"
+                  class=""
+                  alt="economy card image"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="history.html#history"
+                ><img
+                  src="Web Images/Cards/HISTORY.jpg"
+                  class=""
+                  alt="history card image"
+              /></a>
+              <a href="explore.html#Nature"
+                ><img
+                  src="Web Images/Cards/NATURE.jpg"
+                  class=""
+                  alt="nature card image"
+              /></a>
+              <a href="people.html#people"
+                ><img
+                  src="Web Images/Cards/PEOPLE.jpg"
+                  class=""
+                  alt="people card image"
+              /></a>
+              <a href="about.html#symbols"
+                ><img
+                  src="Web Images/Cards/SYMBOLS.jpg"
+                  class=""
+                  alt="symbols card image"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------Desktop Navigation "Cards"-------------------->
+
+      <!--------------------Tablet/Desktop Photo Gallery-------------------->
+      <div class="row d-none d-md-block mx-3" id="photo-gallery">
+        <h1 class="col-12 mt-5 text-center">TRAVELER PHOTOS</h1>
+        <div class="row mx-auto">
+          <div class="col">
+            <img
+              src="Web Images/Travel Images/travel_photo_1.jpeg"
+              class="w-100 shadow-1-strong rounded mb-3"
+              alt="Boat on Calm Water"
+            />
+
+            <img
+              src="Web Images/Travel Images/travel_photo_6.jpeg"
+              class="w-100 shadow-1-strong rounded mb-3"
+              alt="Image for travel photo"
+            />
+          </div>
+
+          <div class="col">
+            <img
+              src="Web Images/Travel Images/travel_photo_3.jpg"
+              class="w-100 shadow-1-strong rounded mb-3"
+              alt="Image for travel photo"
+            />
+
+            <img
+              src="Web Images/Travel Images/travel_photo_4.jpg"
+              class="w-100 shadow-1-strong rounded mb-3"
+              alt="Image travel photo 4"
+            />
+          </div>
+          <div class="col">
+            <img
+              src="Web Images/Travel Images/travel_photo_5.jpg"
+              class="w-100 shadow-1-strong rounded mb-3"
+              alt="image for travel photo 5"
+            />
+
+            <img
+              src="Web Images/Travel Images/travel_photo_2.jpg"
+              class="w-100 shadow-1-strong rounded"
+              alt="Image for travel photo"
+            />
+          </div>
+        </div>
+      </div>
+      <!--------------------Tablet/Desktop Photo Gallery-------------------->
+
+      <!--------------------Mobile Carousel Gallery-------------------->
+      <div class="row mb-5 d-md-none">
+        <h1 class="col mt-4 text-center">TRAVELER PHOTOS</h1>
+        <div
+          id="travel-carousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3500"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#travel-carousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#travel-carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#travel-carousel"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#travel-carousel"
+              data-bs-slide-to="3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#travel-carousel"
+              data-bs-slide-to="4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#travel-carousel"
+              data-bs-slide-to="5"
+            ></button>
+          </div>
+
+          <div class="carousel-inner" id="travel-img">
+            <div class="carousel-item active">
+              <img
+                src="Web Images/Travel Images/travel_photo_1.jpeg"
+                class="img-fluid d-lg-none"
+                alt="Image for travel photo 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Travel Images/travel_photo_2.jpg"
+                class="img-fluid d-lg-none"
+                alt="Image for travel photo"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Travel Images/travel_photo_3.jpg"
+                class="img-fluid d-lg-none"
+                alt="Image for travel photo 3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Travel Images/travel_photo_4.jpg"
+                class="img-fluid d-lg-none"
+                alt="Image for travel photo"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Travel Images/travel_photo_5.jpg"
+                class="img-fluid d-lg-none"
+                alt="Image for travel photo 5"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="Web Images/Travel Images/travel_photo_6.jpeg"
+                class="img-fluid d-lg-none"
+                alt=".image for pho"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--------------------Mobile Carousel Gallery-------------------->
+
+      <!--------------------Footer-------------------->
+      <div class="row">
+        <footer class="text-center text-white bg-dark" id="footer">
+          <div class="container">
+            <div class="col flex-row float-md-start">
+              <img
+                src="Web Images/Logo.png"
+                width="100"
+                class="mt-5 mb-3"
+                alt="page logo"
+              />
+            </div>
+
+            <div class="row justify-content-center">
+              <div
+                class="row text-center d-flex justify-content-center pt-5 pb-3"
+              >
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="index.html" class="text-white">HOME</a>
+                  </h6>
+                </div>
+
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="about.html" class="text-white">ABOUT</a>
+                  </h6>
+                </div>
+
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="history.html" class="text-white">HISTORY</a>
+                  </h6>
+                </div>
+
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="explore.html" class="text-white">EXPLORE</a>
+                  </h6>
+                </div>
+
+                <div class="col">
+                  <h6 class="text-uppercase font-weight-bold">
+                    <a href="people.html" class="text-white">PEOPLE</a>
+                  </h6>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-center pt-sm-3">
+                <div class="col">
+                  <p>
+                    Travelling in the Philippines is much more fun. Visit
+                    <span>
+                      <a href="https://philippines.travel/"
+                        >Philippines' official tourism website</a
+                      ></span
+                    >
+                    for more info.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!--------------------Footer-------------------->
+    </div>
+    <!--------------------Page Container-------------------->
+  </body>
+</html>
